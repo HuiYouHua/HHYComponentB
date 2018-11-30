@@ -8,6 +8,8 @@
 
 #import "Target_HHYComponentB.h"
 #import "HHYComponentBViewController.h"
+#import <HHYComponentA.h>
+
 @implementation Target_HHYComponentB
 
 - (UIViewController *)Action_HHYComponentB:(NSDictionary *)params {

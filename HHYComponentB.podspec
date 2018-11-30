@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentB"
   # 项目版本号
-  s.version      = "0.0.9"
+  s.version      = "0.0.11"
   # 项目摘要
   s.summary      = "HHYComponentB"
 
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.dependency 'HHYCTMediator', '~> 0.0.3'
+  s.dependency 'HHYCTMediator'
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }

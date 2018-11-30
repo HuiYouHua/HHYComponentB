@@ -7,7 +7,7 @@
 //
 
 
-@class CTMediator;
+#import <CTMediator.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (HHYComponentB)

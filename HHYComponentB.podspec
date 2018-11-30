@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentB"
   # 项目版本号
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   # 项目摘要
   s.summary      = "HHYComponentB"
 

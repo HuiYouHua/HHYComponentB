@@ -7,4 +7,5 @@ target 'HHYComponentB' do
     
 
 pod 'HHYCTMediator', '~> 0.0.3', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
+
 end

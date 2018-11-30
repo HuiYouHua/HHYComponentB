@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   # s.dependency 'HHYCTMediator', '~> 0.0.3'
-  s.dependency 'HHYComponentA', '~> 0.0.2'
+  s.dependency 'HHYComponentA'
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }

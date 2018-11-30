@@ -1,16 +1,24 @@
 PODS:
+  - HHYComponentA (0.0.2):
+    - HHYComponentA/HHYComponentA (= 0.0.2)
+  - HHYComponentA/HHYComponentA (0.0.2):
+    - HHYComponentA/HHYComponentA/Controller (= 0.0.2)
+  - HHYComponentA/HHYComponentA/Controller (0.0.2)
   - HHYCTMediator (0.0.3)
 
 DEPENDENCIES:
+  - HHYComponentA (~> 0.0.2)
   - HHYCTMediator (~> 0.0.3)
 
 SPEC REPOS:
   https://github.com/HuiYouHua/HHYSpecs.git:
+    - HHYComponentA
     - HHYCTMediator
 
 SPEC CHECKSUMS:
+  HHYComponentA: 348a5c898e0d2c01afdc3491f5a31d74477f5adf
   HHYCTMediator: 69f192a8af8bf473dd4b837f2c87051a5ce545c2
 
-PODFILE CHECKSUM: 34c8252b13f4ff2a8d258e1a39ea56256457b7bd
+PODFILE CHECKSUM: 5008693af2d1870294bc87040cc6511174c08b54
 
 COCOAPODS: 1.5.3

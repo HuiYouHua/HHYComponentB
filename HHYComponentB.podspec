@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentB"
   # 项目版本号
-  s.version      = "0.0.6"
+  s.version      = "0.0.7"
   # 项目摘要
   s.summary      = "HHYComponentB"
 
@@ -78,12 +78,12 @@ Pod::Spec.new do |s|
 
   s.subspec 'CTMediaCategory' do |ss|
       ss.source_files = "HHYComponentB/CTMediaCategory/**/*.{h,m}"
-      ss.dependency 'HHYCTMediator', '~> 0.0.3'
+      
   end
 
   # s.public_header_files = "Classes/**/*.h"
 
-
+  s.dependency 'HHYCTMediator', '~> 0.0.3'
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }

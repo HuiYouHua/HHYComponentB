@@ -6,8 +6,8 @@
 //  Copyright © 2018 华惠友. All rights reserved.
 //
 
-#import <CTMediator.h>
 
+@class CTMediator;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (HHYComponentB)

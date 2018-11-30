@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
     
   s.subspec 'Target' do |ss|
       ss.source_files = "HHYComponentB/Target/**/*.{h,m}"
-      ss.dependency "ModuleB/Controller"
+      ss.dependency "HHYComponentB/Controller"
   end
 
   # s.public_header_files = "Classes/**/*.h"

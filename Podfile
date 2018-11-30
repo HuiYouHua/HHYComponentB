@@ -2,9 +2,9 @@
 platform :ios, '8.0'
 
 target 'HHYComponentB' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+    source 'https://github.com/CocoaPods/Specs.git'
+    source 'https://github.com/HuiYouHua/HHYSpecs.git'
 
-  # Pods for HHYComponentB
+pod 'CTMediator', '~> 0.0.1', :source => 'https://github.com/HuiYouHua/HHYSpecs.git'
 
 end

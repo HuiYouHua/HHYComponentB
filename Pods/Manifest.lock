@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: e2ed83b4da9861196486b3d38ee1e5573f52d003
+PODS:
+  - CTMediator (0.0.1)
+
+DEPENDENCIES:
+  - CTMediator (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/HuiYouHua/HHYSpecs.git:
+    - CTMediator
+
+SPEC CHECKSUMS:
+  CTMediator: 1a6c96e3f0d8fa36f0cf0189bffcc4725e379efc
+
+PODFILE CHECKSUM: a9433b19af043d7c837e6af5b647195a8e3a5705
 
 COCOAPODS: 1.5.3

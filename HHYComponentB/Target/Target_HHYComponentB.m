@@ -8,7 +8,6 @@
 
 #import "Target_HHYComponentB.h"
 #import "HHYComponentBViewController.h"
-#import "HHYComponentA.h"
 
 @implementation Target_HHYComponentB
 

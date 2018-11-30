@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # 项目名称
   s.name         = "HHYComponentB"
   # 项目版本号
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   # 项目摘要
   s.summary      = "HHYComponentB"
 
@@ -86,6 +86,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "HHYCTMediator"
+  s.dependency "HHYCTMediator", '~0.0.3'
 
 end

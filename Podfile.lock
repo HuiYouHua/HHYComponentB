@@ -1,16 +1,16 @@
 PODS:
-  - CTMediator (0.0.1)
+  - HHYCTMediator (0.0.3)
 
 DEPENDENCIES:
-  - CTMediator (~> 0.0.1)
+  - HHYCTMediator (~> 0.0.3)
 
 SPEC REPOS:
   https://github.com/HuiYouHua/HHYSpecs.git:
-    - CTMediator
+    - HHYCTMediator
 
 SPEC CHECKSUMS:
-  CTMediator: 1a6c96e3f0d8fa36f0cf0189bffcc4725e379efc
+  HHYCTMediator: 69f192a8af8bf473dd4b837f2c87051a5ce545c2
 
-PODFILE CHECKSUM: a9433b19af043d7c837e6af5b647195a8e3a5705
+PODFILE CHECKSUM: 3e570b39c3e03d983a9d90e3ec5d3684074b3d1d
 
 COCOAPODS: 1.5.3

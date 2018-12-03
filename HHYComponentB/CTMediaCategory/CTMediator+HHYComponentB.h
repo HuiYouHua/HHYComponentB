@@ -12,7 +12,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (HHYComponentB)
-- (UIViewController *)HHYComponentBWithCallback:(void(^)(NSString *result))callback;
+- (UIViewController *)HHYComponentB:(NSArray *)dataArray WithCallback:(void(^)(NSArray *dataArray))callback;
 @end
 
 NS_ASSUME_NONNULL_END

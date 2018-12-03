@@ -10,8 +10,9 @@
 
 @implementation CTMediator (HHYComponentB)
 
-- (UIViewController *)HHYComponentBWithCallback:(void(^)(NSString *result))callback {
+- (UIViewController *)HHYComponentB:(NSArray *)dataArray WithCallback:(void(^)(NSArray *dataArray))callback {
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"dataArray"] = dataArray;
     params[@"callback"] = callback;
     return [self performTarget:@"HHYComponentB" action:@"HHYComponentB" params:params shouldCacheTarget:NO];
 }
